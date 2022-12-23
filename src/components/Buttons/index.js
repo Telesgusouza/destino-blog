@@ -39,12 +39,12 @@ export default function Button() {
 
   return (
     <>
-      {width >= 614 ? (
+      {/* {width >= 614 ? ( */}
         <Styled.ContainerButtonsLogin>
           <button>Login</button>
           <button>Sign Up</button>
         </Styled.ContainerButtonsLogin>
-      ) : (
+      {/* ) : ( */}
         <>
           <Styled.ContainerNav>
             <img src={imgMenu} onClick={showMenu} />
@@ -96,7 +96,7 @@ export default function Button() {
             )}
           </Styled.ContainerNav>
         </>
-      )}
+      {/* )} */}
     </>
   );
 }

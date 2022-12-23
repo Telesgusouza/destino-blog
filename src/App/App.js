@@ -11,13 +11,11 @@ function App() {
   return (
     <Styled.Container>
       <Styled.Main>
-        {/* <Styled.ImgBg src={bg} /> // NÃO SEI COMO ARRUMA ESSA PORRA  */}
-
         <Styled.HeaderContainer>
           <img src={logo} />
 
           <Home />
-
+          
           <Button />
 
         </Styled.HeaderContainer>

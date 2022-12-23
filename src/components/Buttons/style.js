@@ -34,12 +34,17 @@ export const ContainerButtonsLogin = styled.div`
 `;
 
 export const ContainerNav = styled.menu`
+display: none;
   position: absolute;
   right: 0;
 
   img {
     width: 22px;
     cursor: pointer;
+  }
+
+  @media (max-width: 614px) {
+    display: block;
   }
 `;
 
